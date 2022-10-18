@@ -1,8 +1,10 @@
 #include <unistd.h>
  /**
-  * main - prints "and that piece of art is useful\" - Dora Korpar,
-  * 2015-10-19."
+  * main - prints simple text
+  * @void: function with no retun type
+  *
   * Description: file that prints text
+  * body: write to buffer
   * Return: Always 1 (success)
  */
 
