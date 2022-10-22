@@ -14,14 +14,13 @@ void print_triangle(int size)
 		for (hx = 1; hx <= size; hx++)
 		{
 			for (idx = size - hx; idx > 0; idx--)
-			_putchar(' ');
+				_putchar(' ');
 			for (idx = 0; idx < hx; idx++)
-			_putchar('#');
+				_putchar('#');
 			if (hx == size)
-			continue;
+				continue;
 			_putchar('\n');
 		}
 	}
 	_putchar('\n');
-	return (0);
 }
